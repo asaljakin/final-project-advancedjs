@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/team-final-project-js/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your energy</title>
+    <!-- styles -->
+    
+    <script type="module" crossorigin src="/team-final-project-js/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/team-final-project-js/assets/vendor-a3df9737.js">
+    <link rel="modulepreload" crossorigin href="/team-final-project-js/assets/burger-menu-d44d8021.js">
+    <link rel="stylesheet" href="/team-final-project-js/assets/vendor-34b8c2a2.css">
+    <link rel="stylesheet" href="/team-final-project-js/assets/styles-67f09714.css">
+  </head>
+
+  <body>
+    <header class="page-header">
+
+    <!-- header container -->
+    <div class="container">
+        <div class="header-container ">
+            <!-- header navigation -->
+            <!-- logo -->
+            <a class="logo" href="./index.html">
+                <svg class="social-media-icon" width="132" height="24" aria-label="logo your energy">
+                    <use href="/team-final-project-js/assets/sprite-59e25010.svg#logo"></use>
+                </svg>
+            </a>
+            <!-- navigation -->
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <!-- menu -->
+                    <li class="header-nav-item">
+                        <a class="header-nav-link " href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="./favorites-page.html">
+                            Favorites
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+            <!-- social media -->
+            <div class="header-social-media-container header-social-media-wrapper">
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" class="theme-switch">
+                        <span class="sun"></span>
+                        <span class="moon">
+                            <span class="star"></span>
+                            <span class="star small"></span>
+                        </span>
+                    </label>
+                </div>
+                <ul class="header-social-media-list">
+                    <!-- facebook -->
+                    <li class="header-social-media-item">
+                        <a class="header-social-media-link" href="https://www.facebook.com/goITclub/" target="_blank"
+                           rel="noopener noreferrer" aria-label="facebook link">
+                            <svg class="header-social-media-icon" width="28" height="28" aria-label="facebook icon">
+                                <use href="/team-final-project-js/assets/sprite-59e25010.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <!-- instagram -->
+                    <li class="header-social-media-item">
+                        <a class="header-social-media-link" href="https://www.instagram.com/goitclub/" target="_blank"
+                           rel="noopener noreferrer" aria-label="instagram link">
+                            <svg class="header-social-media-icon" width="28" height="28" aria-label="instagram icon">
+                                <use href="/team-final-project-js/assets/sprite-59e25010.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <!-- youtube -->
+                    <li class="header-social-media-item">
+                        <a class="header-social-media-link" href="https://www.youtube.com/c/GoIT" target="_blank"
+                           rel="noopener noreferrer" aria-label="youtube link">
+                            <svg class="header-social-media-icon" width="28" height="28" aria-label="youtube icon">
+                                <use href="/team-final-project-js/assets/sprite-59e25010.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- mobile burger menu -->
+            <!--mobile header  -->
+            <div class="header-social-media-wrapper toggle-switch">
+                <div>
+                    <div class="header-social-media-wrapper">
+                        <label class="switch">
+                            <input type="checkbox" class="theme-switch">
+                            <span class="sun"></span>
+                            <span class="moon">
+                            <span class="star"></span>
+                            <span class="star small"></span>
+                        </span>
+                        </label>
+                    </div>
+                </div>
+                <button class="burger-menu-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="burger-menu-icon" width="32" height="32" aria-label="burger menu icon for mobile">
+                        <use href="/team-final-project-js/assets/sprite-59e25010.svg#burger-menu"></use>
+                    </svg>
+                </button>
+            </div>
+            <!-- modal burger menu  -->
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <div class="modal">
+                    <button class="close-btn js-close-menu" type="button"
+                            aria-label="closing button for burger menu mobile">
+                        <svg class="close-modal-btn-icon" width="32" height="32"
+                             aria-label="closing button icon for burger menu mobile">
+                            <use href="/team-final-project-js/assets/sprite-59e25010.svg#close"></use>
+                        </svg>
+                    </button>
+                    <nav class="nav-burger-menu">
+                        <ul class="nav-burger-menu-list">
+                            <li class="nav-burger-menu-item">
+                                <a class="nav-burger-menu-link" href="./index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-burger-menu-item">
+                                <a class="nav-burger-menu-link" href="./favorites-page.html">
+                                    Favorites
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- social media -->
+                    <div class="burger-social-media-container">
+                        <ul class="burger-social-media-list">
+                            <!-- facebook -->
+                            <li class="burger-social-media-item">
+                                <a class="burger-social-media-link" href="https://www.facebook.com/goITclub/"
+                                   target="_blank" rel="noopener noreferrer" aria-label="facebook link">
+                                    <svg class="burger-social-media-icon" width="24" height="24"
+                                         aria-label="facebook icon">
+                                        <use href="/team-final-project-js/assets/sprite-59e25010.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- instagram -->
+                            <li class="burger-social-media-item">
+                                <a class="burger-social-media-link" href="https://www.instagram.com/goitclub/"
+                                   target="_blank" rel="noopener noreferrer" aria-label="instagram link">
+                                    <svg class="burger-social-media-icon" width="24" height="24"
+                                         aria-label="instagram icon">
+                                        <use href="/team-final-project-js/assets/sprite-59e25010.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- youtube -->
+                            <li class="burger-social-media-item">
+                                <a class="burger-social-media-link" href="https://www.youtube.com/c/GoIT"
+                                   target="_blank" rel="noopener noreferrer" aria-label="youtube link">
+                                    <svg class="burger-social-media-icon" width="24" height="24"
+                                         aria-label="youtube icon">
+                                        <use href="/team-final-project-js/assets/sprite-59e25010.svg#youtube"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main>
+      <section class="hero-section">
+    <div class="container hero-section-wrapper">
+        <div class="hero-title-container">
+            <svg class="hero-title-icon" width="38" height="38">
+                <use href="/team-final-project-js/assets/sprite-59e25010.svg#icon-sun"></use>
+            </svg>
+            <h1 class="hero-title">
+                Get <span class="hero-title-span">Body</span> in <br />shape, Stay healthy
+            </h1>
+            <img class="hero-image-small-desktop" src="/team-final-project-js/assets/hero-small-desktop-0b7df89e.webp"
+                srcset="/team-final-project-js/assets/hero-small-desktop@2x-2cb0d710.webp " alt="Two girls doing yoga in nature" />
+        </div>
+
+        <p class="hero-subtitle">
+            Transform your physique and embrace a healthier lifestyle with our comprehensive fitness and nutrition
+            support.
+        </p>
+
+        <div class="hero-imag-container">
+            <picture class="hero-image">
+                <source media="(max-width: 767px)" srcset="/team-final-project-js/assets/hero-mobile-a127b2f5.webp 1x, /team-final-project-js/assets/hero-mobile@2x-ed2040c7.webp 2x" />
+                <source media="(min-width: 768px) and (max-width: 1279px)" srcset="/team-final-project-js/assets/hero-tablet-71a1da3d.webp 1x, /team-final-project-js/assets/hero-tablet@2x-e2d2217e.webp 2x" />
+                <source media="(min-width: 1280px)" srcset="/team-final-project-js/assets/hero-desktop-87f768fe.webp 1x, /team-final-project-js/assets/hero-desktop@2x-d5a6c887.webp 2x" />
+                <img src="/team-final-project-js/assets/hero-mobile-a127b2f5.webp" alt="Two girls doing sports on the river bank" />
+            </picture>
+        </div>
+
+        <ul class="hero-hashtags-list">
+            <li class="hero-hashtag-item">Sport</li>
+            <li class="hero-hashtag-item">Healthy</li>
+            <li class="hero-hashtag-item">Workout</li>
+            <li class="hero-hashtag-item">Diet</li>
+        </ul>
+    </div>
+</section>
+      <section class="section-container">
+  <div class="container categories-container">
+    <div class="exercises-header">
+      <h2 class="exercises-title" id="exercises-title">
+        Exercises<span class="exercises-title-span"></span>
+      </h2>
+      <div class="exercises-filter">
+        <div class="exercises-search-wrapper" id="search-wrapper">
+          <input
+            class="exercises-search"
+            id="exercises-search"
+            type="search"
+            name="search-input"
+            placeholder="Search"
+          />
+          <button
+            class="exercises-search-button"
+            type="button"
+            name="btn-search"
+          >
+            <svg
+              class="exercises-search-img"
+              id="search-img"
+              width="18"
+              height="18"
+              aria-label=" search icon"
+            >
+              <use href="/team-final-project-js/assets/sprite-59e25010.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+        <ul class="filters-list" id="filters"></ul>
+      </div>
+    </div>
+
+    <div class="categories-wrapper" id="categories-wrapper">
+      <!-- Quote Content -->
+      <div class="quote-container">
+        <div class="quote-wrap">
+          <div class="quote-wrapper">
+            <div class="quote-svg-wrap">
+              <svg
+                class="quote-svg"
+                width="34"
+                height="32"
+                aria-label="icon run man"
+              >
+                <use href="/team-final-project-js/assets/sprite-59e25010.svg#run"></use>
+              </svg>
+            </div>
+            <div class="quote-title-wrap">
+              <div class="quote-title">
+                <h3>Quote of the day</h3>
+                <svg
+                  class="quote-title-svg"
+                  width="25"
+                  height="25"
+                  aria-label="icon commas"
+                >
+                  <use href="/team-final-project-js/assets/sprite-59e25010.svg#commas"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="/team-final-project-js/assets/exercise-mobile-423903f2.webp 1x, /team-final-project-js/assets/exercise-mobile@2x-6ce1db31.webp 2x"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="/team-final-project-js/assets/exercise-tablet-33498d91.webp 1x, /team-final-project-js/assets/exercise-tablet@2x-459d01e3.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/team-final-project-js/assets/exercise-desktop-c21abade.webp 1x, /team-final-project-js/assets/exercise-desktop@2x-e5cd4c51.webp 2x"
+            />
+            <img
+              class="quote-img"
+              src="/team-final-project-js/assets/exercise-mobile-423903f2.webp"
+              alt="Exersices"
+            />
+          </picture>
+        </div>
+        <div class="quote-wrapper article">
+          <div class="quote-svg-wrap article">
+            <svg
+              class="quote-svg"
+              width="34"
+              height="32"
+              aria-label="fluent food"
+            >
+              <use href="/team-final-project-js/assets/sprite-59e25010.svg#fluent-food"></use>
+            </svg>
+          </div>
+          <div>
+            <div class="quote-title article">
+              <h3>110 min</h3>
+            </div>
+            <p class="quote-text article">Daily norm of sports</p>
+            <p class="quote-author article">
+              The World Health Organization recommends at least 150 minutes of
+              moderate-intensity aerobic physical activity throughout the week
+              for adults aged 18-64. However, what happens if we adjust that
+              number to 110 minutes every day? While it might seem like a high
+              number to hit, dedicating 110 minutes daily to sporting activities
+              may offer unparalleled benefits to physical health, mental
+              well-being, and overall quality of life.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categities Content -->
+      <div class="categories-pagination">
+        <ul class="categories-list" id="categories"></ul>
+        <!-- Pagination.html -->
+        <div
+          class="tui-pagination pagination"
+          id="tui-pagination-container"
+        ></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <button class="scroll-up-button" id="scroll-up-btn" style="display:none;" type="button" aria-label="scroll-up button">
+    <svg class="scroll-up-icon" width="16" height="16" aria-label="scroll-up icon">
+        <use href="/team-final-project-js/assets/sprite-59e25010.svg#arrow-top"></use>
+    </svg>
+</button>
+      <!-- Modal main -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal-main">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-icon-close">
+        <use href="/team-final-project-js/assets/sprite-59e25010.svg#close"></use>
+      </svg>
+    </button>
+    <div class="modal-container"></div>
+    <div class="buttons">
+      <button class="button add-to-favorites" type="button"></button>
+      <button class="button give-a-rating" type="button">Give a rating</button>
+    </div>
+  </div>
+</div>
+      <form class='rating-feedback-form is-hidden'>
+  <button class='close-rating-btn' type='button'>
+    <svg class='close-rating-btn-icon' width='24' height='24'>
+      <use href='/team-final-project-js/assets/sprite-59e25010.svg#close'></use>
+    </svg>
+  </button>
+  <p class='rating-modal-title'>Rating <span class='rating-error'>add rating to submit</span></p>
+
+  <div class='rating-stars'>
+    <span class='rating-number'>0.0</span>
+    <input class='star-radio' name='star' id='star1' type='radio' value='1' />
+    <label class='star-label' for='star1' data-value='1'>
+      <svg class='star-icon-rating' width='24' height='24'>
+        <use href='/team-final-project-js/assets/sprite-59e25010.svg#star'></use>
+      </svg>
+    </label>
+    <input class='star-radio' name='star' id='star2' type='radio' value='2' />
+    <label class='star-label' for='star2' data-value='2'>
+      <svg class='star-icon-rating' width='24' height='24'>
+        <use href='/team-final-project-js/assets/sprite-59e25010.svg#star'></use>
+      </svg>
+    </label>
+    <input class='star-radio' name='star' id='star3' type='radio' value='3' />
+    <label class='star-label' for='star3' data-value='3'>
+      <svg class='star-icon-rating' width='24' height='24'>
+        <use href='/team-final-project-js/assets/sprite-59e25010.svg#star'></use>
+      </svg>
+    </label>
+    <input class='star-radio' name='star' id='star4' type='radio' value='4' />
+    <label class='star-label' for='star4' data-value='4'>
+      <svg class='star-icon-rating' width='24' height='24'>
+        <use href='/team-final-project-js/assets/sprite-59e25010.svg#star'></use>
+      </svg>
+    </label>
+    <input class='star-radio' name='star' id='star5' type='radio' value='5' />
+    <label class='star-label' for='star5' data-value='5'>
+      <svg class='star-icon-rating' width='24' height='24'>
+        <use href='/team-final-project-js/assets/sprite-59e25010.svg#star'></use>
+      </svg>
+    </label>
+
+
+  </div>
+  <label>
+    <input
+      class='rating-user-email'
+      name='email'
+      placeholder='Email'
+    />
+  </label>
+  <label for='textarea-rating'>
+<textarea
+  id='textarea-rating'
+  class='rating-user-comment'
+  name='review'
+  placeholder='Your comment'
+></textarea>
+  </label>
+  <button type='submit' class='rating-submit-btn'>Send</button>
+</form>
+    </main>
+    <footer class='footer'>
+  <div class='container'>
+    <div class='footer-wrapper'>
+      <div class='footer-form-wrapper'>
+
+        <div class='footer-svg-container flex-column'>
+          <div>
+            <a href='./index.html' class='footer-logo-link' aria-label='page header'>
+              <svg class='footer-logo-link-img' width='132' height='24'>
+                <use href='/team-final-project-js/assets/sprite-59e25010.svg#logo'></use>
+              </svg>
+            </a>
+
+            <ul class='footer-social-networks'>
+              <li class='footer-social-item'>
+                <a class='footer-link-network' href='https://www.facebook.com/goITclub/' target='_blank'
+                  aria-label='Facebook' rel='noopener noreferrer'>
+                  <svg class='footer-svg' width='24' height='24' aria-label="facebook icon">
+                    <use href='/team-final-project-js/assets/sprite-59e25010.svg#facebook'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class='footer-social-item'>
+                <a class='footer-link-network' href='https://www.instagram.com/goitclub/' target='_blank'
+                  aria-label='Instagram' rel='noopener noreferrer'>
+                  <svg class='footer-svg' width='24' height='24' aria-label="Instagram icon">
+                    <use href='/team-final-project-js/assets/sprite-59e25010.svg#instagram'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class='footer-social-item'>
+                <a class='footer-link-network' href='https://www.youtube.com/c/GoIT' target='_blank'
+                  aria-label='Youtube' rel='noopener noreferrer'>
+                  <svg class='footer-svg' width='24' height='24' aria-label='Youtube icon'>
+                    <use href='/team-final-project-js/assets/sprite-59e25010.svg#youtube'></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class='footer-term-policy-rights hide-mobile'>Your Energy. All rights reserved.</p>
+        </div>
+
+
+        <div class='flex-column hide-desktop'>
+          <h2 class='footer-title'>
+            Transforming your <span class='footer-body-span'>body </span>shape
+            with us
+          </h2>
+          <div class='footer-term-policy-rights'>
+            <a class='link-hover' href='./privacy-policy.html' target='_blank' aria-label='privacy policy'>Privacy
+              Policy </a>
+            <span> / </span>
+            <a class='link-hover' href='./terms-of-service.html' target='_blank' aria-label='terms of service'> Terms of
+              Service</a>
+          </div>
+        </div>
+
+        <div class='flex-column hide-desktop'>
+          <p class='footer-subscribe'>
+            Subscribe and learn about new exercises!
+          </p>
+          <form class='footer-form'>
+            <label class='footer-label-form-email' for='footer-email-input1'>
+              <input class='footer-email-input' name='email' type='email' id='footer-email-input1'
+                placeholder='Email' />
+            </label>
+            <button class='footer-btn-email' type='submit' aria-label='submit subscription form'>Send</button>
+          </form>
+          <p class='footer-term-policy-rights'>&copy; 2023</p>
+        </div>
+
+        <div class='flex-column hide-tablet'>
+          <h2 class='footer-title'>
+            Transforming your <span class='footer-body-span'>body </span>shape
+            with us
+          </h2>
+          <p class='footer-subscribe'>
+            Subscribe and learn about new exercises!
+          </p>
+          <form class='footer-form'>
+            <label class='footer-label-form-email' for='footer-email-input'>
+              <input class='footer-email-input' name='email' type='email' id='footer-email-input' placeholder='Email' />
+            </label>
+            <button class='footer-btn-email' type='submit' aria-label='submit subscription form'>Send</button>
+          </form>
+          <div class='footer-flex-wrapper'>
+
+            <div class='footer-term-policy-rights'>
+              <p class='hide-copyright'>Your Energy. All rights reserved.</p>
+              <a class='link-hover' href='./privacy-policy.html' target='_blank' aria-label='privacy policy'>Privacy
+                Policy </a>
+              <span> / </span>
+              <a class='link-hover' href='./terms-of-service.html' target='_blank' aria-label='terms of service'> Terms
+                of Service</a>
+            </div>
+            <p class='footer-term-policy-rights'>&copy; 2023</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</footer>
+    
+  </body>
+</html>
